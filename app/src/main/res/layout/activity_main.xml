@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/holo_red_light"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Blood pressure measurement"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:gravity="center_horizontal" />
+
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:hint="sys"
+        android:maxLines="1"
+        android:textAlignment="center"
+        android:inputType="number"
+        android:id="@+id/activity_main_sys_edit_text"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:hint="dys"
+        android:textAlignment="center"
+        android:maxLines="1"
+        android:inputType="number"
+        android:id="@+id/activity_main_dys_edit_text"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:inputType="number"
+        android:hint="pulse"
+        android:textAlignment="center"
+        android:id="@+id/activity_main_pulse_edit_text"
+        android:gravity="center_horizontal" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:textAppearance="@android:style/TextAppearance.Holo.Widget.Button"
+        android:id="@+id/activity_main_add_button"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List"
+        android:textAppearance="@android:style/TextAppearance.Holo.Widget.Button"
+        android:id="@+id/activity_main_list_button"/>
+
+
+</LinearLayout>
